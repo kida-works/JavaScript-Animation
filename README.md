@@ -1,5 +1,5 @@
 # JavaScript-Animation
 
-##js-test02
+##　js-test02
 
 Javascriptだけ使用したスクロールスナップ
