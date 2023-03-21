@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.list:nth-child(1) {
+  background-color: red;
+}
+.list:nth-child(2) {
+  background-color: blue;
+}
+.list:nth-child(3) {
+  background-color: green;
+}
+.list:nth-child(4) {
+  background-color: yellow;
+}
+.list:nth-child(5) {
+  background-color: purple;
+}
+.list {
+  padding: 20px;
+}
+
+.list::before {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-color: white;
+}
